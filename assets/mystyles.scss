@@ -1,0 +1,93 @@
+// 1. Import the initial variables
+// @import "~bulma/sass/utilities/initial-variables";
+// @import "~bulma/sass/utilities/functions";
+
+// Set your brand colors
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+$black: #000;
+$white: #fff;
+$error: #b23838;
+$gray: #f6f6f6;
+$matterhorn: #505050;
+$dim-gray: #6c6c6c;
+$dark-pink: #cf86a1;
+$middle-gray: #dbdbdb;
+$dark-red: #b23838;
+$dark-gray: #606060;
+
+$primary: $purple;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$body-color: #000 !default;
+
+// 6. Import the rest of Bulma
+@import "../node_modules/bulma/bulma";
+// @import "../node_modules/bulma/sass/utilities/_all.sass";
+// @import "../node_modules/bulma/sass/helpers/_all.sass";
+
+@import "./scss/normalize";
+@import "./scss/utility";
+@import "./scss/layout";
+@import "./scss/form";
+@import "./scss/components";
+@import "./scss/wysiwyg";
+
+.divider {
+  background-color: #a7a7a7;
+  border-top: solid 1px #a7a7a7;
+  margin: 0 5px;
+}
+
+.divider-black {
+  background-color: $black;
+  border-top: solid 1px $black;
+  margin: 0 10px;
+}
+
+.full-divider-dark {
+  background-color: #a7a7a7;
+  border-top: solid 1px #a7a7a7;
+  margin: 0 -5px;
+}
+
+.mini-divider {
+  background-color: #dbdbdb;
+  border-top: solid 1px #dbdbdb;
+  margin: 0 5px;
+}
+
+.full-divider {
+  background-color: #dbdbdb;
+  border-top: solid 1px #dbdbdb;
+  margin: 0 -5px;
+  @include desktop {
+    margin: 0;
+  }
+}
+
+.full-divider-black {
+  background-color: $black;
+  border-top: solid 1px $black;
+  margin: 0 -5px;
+}
+
+.sp-only {
+  @include desktop {
+    display: none;
+  }
+}
+.pc-only {
+  @include touch {
+    display: none;
+  }
+}

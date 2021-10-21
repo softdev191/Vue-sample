@@ -1,0 +1,9 @@
+export const SUCCESS = "000";
+export const INVALID_SHOP_ID = "101";
+export const INVALID_API_KEY = "102";
+export const INVALID_CARD_NUMBER = "201";
+export const INVALID_EXPIRY_MONTH = "202";
+export const INVALID_EXPIRY_YEAR = "203";
+export const INVALID_OWNER_NAME = "204";
+export const INVALID_SECURITY_CODE = "205";
+export const SYSTEM_ERROR = "901";

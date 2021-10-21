@@ -1,0 +1,47 @@
+.fixed-container {
+  width: 94%;
+  max-width: 1024px;
+  margin: 0 auto;
+  @include touch {
+    width: auto;
+    margin: 0 5px;
+    padding: 0 5px;
+  }
+}
+
+.login-container {
+  max-width: 525px;
+  margin: 0 auto;
+  @include touch {
+    max-width: none;
+    margin: 0 5px;
+    padding: 0 5px;
+  }
+}
+
+/* mypage layout */
+.mypage-layout {
+  display: flex;
+  @include touch {
+    flex-direction: column-reverse;
+  }
+  .mypage-main {
+    max-width: 525px;
+    width: 100%;
+  }
+}
+
+/* page */
+.page-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 25px 0;
+  }
+.page-sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 25px 0 30px;
+  &.center {
+    text-align: center;
+  }
+}

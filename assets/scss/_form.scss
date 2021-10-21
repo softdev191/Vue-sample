@@ -1,0 +1,163 @@
+.form-group {
+  margin-bottom: 18px;
+  @include desktop {
+    margin-bottom: 15px;
+  }
+  &.flex {
+    display: flex;
+    align-items: center;
+  }
+  .form-label {
+    width: 100%;
+    display: inline-block;
+    color: $black;
+    font-size: 14px;
+    &.required {
+      position: relative;
+      &::after {
+        content: "*";
+        position: absolute;
+        top: 0;
+        font-size: 30px;
+        line-height: 30px;
+        color: $error;
+      }
+    }
+  }
+  .form-control {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    padding: 12px;
+    &.error {
+      border: 1px solid $error;
+    }
+    &.md {
+      max-width: 230px;
+    }
+  }
+  .form-control-info {
+    color: $black;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
+.form-text {
+  font-size: 10px;
+  line-height: 18px;
+}
+// select
+.select-wrapper {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 15px;
+    right: 12px;
+    border-left: 1px solid $black;
+    border-bottom: 1px solid $black;
+    transform: rotate(-45deg);
+    display: block;
+  }
+  &.md {
+    max-width: 230px;
+  }
+  > select {
+    -webkit-appearance: none;
+  }
+}
+.form-group-wrapper {
+  &.col-2 {
+    display: flex;
+    > .form-group {
+      flex: 1;
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+.form-radio {
+  display: none;
+  + label {
+    padding-left: 22px;
+    color: $black;
+    font-size: 14px;
+    background-image: url("~assets/images/unchecked-icon.png");
+    background-repeat: no-repeat;
+    background-position: 1px 2px;
+  }
+}
+.form-checkbox {
+  display: none;
+  + label {
+    padding-left: 22px;
+    color: $black;
+    font-size: 14px;
+    background-image: url("~assets/images/unchecked-icon.png");
+    background-repeat: no-repeat;
+    background-position: 1px 2px;
+  }
+}
+.form-radio:checked + label {
+  background-image: url("~assets/images/checked-icon.png");
+}
+.form-checkbox:checked + label {
+  background-image: url("~assets/images/checked-icon.png");
+}
+.form-section {
+  margin-bottom: 40px;
+  .form-section-title {
+    border-bottom: 1px solid $black;
+    padding: 0 5px;
+    margin: 0 -5px 20px;
+  }
+}
+.form-input-number-wrapper {
+  position: relative;
+  input[type="number"] {
+    width: 100%;
+    -webkit-appearance: none;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: $black;
+    padding: 2px 8px;
+  }
+  &::after {
+    content: "▼";
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    display: block;
+    color: $black;
+    font-size: 10px;
+  }
+}
+.required-mrk {
+  padding-left: 12px;
+  position: relative;
+
+  &::before {
+    content: "*";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    line-height: 30px;
+    color: $error;
+  }
+}
+.form-radio-group {
+  &.flex {
+    display: flex;
+    .form-radio-wrapper {
+      + .form-radio-wrapper {
+        margin-left: 50px;
+      }
+    }
+  }
+}

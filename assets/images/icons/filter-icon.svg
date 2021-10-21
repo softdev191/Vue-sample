@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.471" height="22" viewBox="0 0 36.471 22">
+  <g id="グループ_323" data-name="グループ 323" transform="translate(-308.03 -160)">
+    <g id="グループ_321" data-name="グループ 321" transform="translate(116 -56)">
+      <g id="楕円形_9" data-name="楕円形 9" transform="translate(212 216)" fill="#fff" stroke="#000" stroke-width="1">
+        <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+        <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+      </g>
+      <path id="パス_547" data-name="パス 547" d="M218.874,766.637h-7" transform="translate(9.127 -546.137)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+      <path id="パス_548" data-name="パス 548" d="M227.344,766.637H211.873" transform="translate(-19.343 -546.137)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <g id="グループ_322" data-name="グループ 322" transform="translate(116 -55)">
+      <g id="楕円形_10" data-name="楕円形 10" transform="translate(208.531 237) rotate(180)" fill="#fff" stroke="#000" stroke-width="1">
+        <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+        <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+      </g>
+      <path id="パス_549" data-name="パス 549" d="M218.874,766.637h-7" transform="translate(411.404 999.137) rotate(180)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+      <path id="パス_550" data-name="パス 550" d="M227.344,766.637H211.873" transform="translate(439.874 999.137) rotate(180)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

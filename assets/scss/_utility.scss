@@ -1,0 +1,165 @@
+// font size
+.fs16 {
+  font-size: 16px !important;
+}
+.fs14 {
+  font-size: 14px !important;
+}
+.fs12 {
+  font-size: 12px !important;
+}
+.fs10 {
+  font-size: 10px !important;
+}
+.fs8 {
+  font-size: 8px !important;
+}
+
+// font weight
+.fwb {
+  font-weight: bold !important;
+}
+.fwn {
+  font-weight: normal !important;
+}
+.fwl {
+  font-weight: lighter !important;
+}
+
+// margin-vertical
+.my20 {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.my30 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+// margin-top
+.mt5 {
+  margin-top: 5px !important;
+}
+.mt10 {
+  margin-top: 10px !important;
+}
+.mt15 {
+  margin-top: 15px !important;
+}
+.mt20 {
+  margin-top: 20px !important;
+}
+.mt24 {
+  margin-top: 24px !important;
+}
+.mt28 {
+  margin-top: 28px !important;
+}
+.mt30 {
+  margin-top: 30px !important;
+}
+.mt80 {
+  margin-top: 80px !important;
+}
+.mt0-pc {
+  @include desktop {
+    margin-top: 0 !important;
+  }
+}
+
+// margin-right
+.mr10 {
+  margin-right: 10px !important;
+}
+.mr12 {
+  margin-right: 12px !important;
+}
+.mr16 {
+  margin-right: 16px !important;
+}
+
+// margin-bottom
+.mb0 {
+  margin-bottom: 0 !important;
+}
+.mb5 {
+  margin-bottom: 5px !important;
+}
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.mb15 {
+  margin-bottom: 15px !important;
+}
+.mb16 {
+  margin-bottom: 16px !important;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
+.mb23 {
+  margin-bottom: 23px !important;
+}
+.mb25 {
+  margin-bottom: 25px !important;
+}
+.mb28 {
+  margin-bottom: 28px !important;
+}
+.mb30 {
+  margin-bottom: 30px !important;
+}
+.mb36 {
+  margin-bottom: 36px !important;
+}
+.mb40 {
+  margin-bottom: 40px !important;
+}
+.mb50 {
+  margin-bottom: 50px !important;
+}
+.mb100 {
+  margin-bottom: 100px !important;
+}
+.mb0-pc {
+  @include desktop {
+    margin-bottom: 0 !important;
+  }
+}
+
+// margin-left
+.ml10 {
+  margin-left: 10px !important;
+}
+.ml32 {
+  margin-left: 32px !important;
+}
+.ml40 {
+  margin-left: 40px !important;
+}
+
+// padding horizontal
+.py16 {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+// padding bottom
+.pb0 {
+  padding-bottom: 0 !important;
+}
+
+.error-msg {
+  font-size: 10px;
+  color: $error;
+  margin-top: 4px;
+}
+
+.word-break-all {
+    word-break: break-all !important;
+}
+
+// text align
+.align-left {
+  text-align: left !important;
+}
